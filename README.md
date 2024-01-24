@@ -20,7 +20,7 @@ where $$\( f(x, y) = 2\pi^2 \sin(\pi x) \sin(\pi y) \).$$ The solution domain is
    - External force: Vertical downward force applied at the free end.
 2. **Physical Model**:
    - Elastic body equilibrium equation: $$\(\nabla \cdot \sigma + \mathbf{f} = \mathbf{0}\),$$ where $$\(\sigma\)$$ is the stress tensor, $$\(\mathbf{f}\)$$ is the external force density.
-   - Hooke's Law (Linear elastic material): $$\(\sigma = 2\mu\epsilon(\mathbf{u}) + \lambda \text{tr}(\epsilon(\mathbf{u}))\),$$ where $$\(\mu\)$$is the shear modulus, $$\(\lambda\)$$is the bulk modulus,$$\(\epsilon(\mathbf{u})\)$$is the symmetric gradient of the displacement field (strain tensor),$$\(\mathbf{I}\)$$is the identity tensor.
+   - Hooke's Law (Linear elastic material): $$\(\sigma = 2\mu\epsilon(\mathbf{u}) + \lambda \text{tr}(\epsilon(\mathbf{u}))\).$$
 ### Solution Approach
 1. **Geometry and Mesh Setup**:
    - Use FEniCS to create the geometry of the cantilever beam and generate an appropriate mesh.
